@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "real-debrid-skill",
+  "owner": {
+    "name": "Subhash",
+    "email": ""
+  },
+  "metadata": {
+    "description": "Real-Debrid API integration for Pi / Oh My Pi — magnet links, hoster unrestrict, downloads, account management",
+    "version": "1.0.0",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "real-debrid",
+      "description": "Full Real-Debrid API integration: add magnet links, poll torrent status, download files, unrestrict hoster links, check account/traffic info",
+      "source": "./real-debrid",
+      "category": "downloads",
+      "homepage": "https://github.com/subhash/real-debrid-skill",
+      "keywords": ["real-debrid", "torrent", "magnet", "download", "hoster", "unrestrict"]
+    }
+  ]
+}
