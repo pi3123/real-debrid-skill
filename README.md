@@ -22,7 +22,7 @@ Also ships a standalone CLI (`rd`) for use outside the agent.
 **Option A — Marketplace (recommended)**:
 
 ```
-/marketplace add subhash/real-debrid-skill
+/marketplace add pi3123/real-debrid-skill
 /marketplace install real-debrid@real-debrid-skill
 ```
 
@@ -32,7 +32,7 @@ Clone or copy the `plugins/real-debrid/` directory into your skills path:
 
 ```bash
 # User skills (~/.omp/agent/skills/)
-git clone https://github.com/subhash/real-debrid-skill.git /tmp/rd-skill
+git clone https://github.com/pi3123/real-debrid-skill.git /tmp/rd-skill
 mkdir -p ~/.omp/agent/skills/real-debrid
 cp /tmp/rd-skill/plugins/real-debrid/SKILL.md ~/.omp/agent/skills/real-debrid/
 ```
@@ -40,7 +40,7 @@ cp /tmp/rd-skill/plugins/real-debrid/SKILL.md ~/.omp/agent/skills/real-debrid/
 ### As a standalone CLI
 
 ```bash
-git clone https://github.com/subhash/real-debrid-skill.git
+git clone https://github.com/pi3123/real-debrid-skill.git
 sudo ln -s "$(pwd)/real-debrid-skill/rd" /usr/local/bin/rd
 ```
 

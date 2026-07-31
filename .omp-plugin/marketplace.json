@@ -2,7 +2,7 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "real-debrid-skill",
   "owner": {
-    "name": "Subhash",
+    "name": "pi3123",
     "email": ""
   },
   "metadata": {
@@ -16,7 +16,7 @@
       "description": "Full Real-Debrid API integration: add magnet links, poll torrent status, download files, unrestrict hoster links, check account/traffic info",
       "source": "./real-debrid",
       "category": "downloads",
-      "homepage": "https://github.com/subhash/real-debrid-skill",
+      "homepage": "https://github.com/pi3123/real-debrid-skill",
       "keywords": ["real-debrid", "torrent", "magnet", "download", "hoster", "unrestrict"]
     }
   ]
